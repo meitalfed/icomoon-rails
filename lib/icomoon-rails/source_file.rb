@@ -17,7 +17,7 @@ class SourceFile < Thor
     if File.exist? "#{@extract_path}/lte-ie7.js"
       copy_file "#{@extract_path}/lte-ie7.js", "javascripts/#{@name}/lte-ie7.js"
     end
-    copy_file "#{@extract_path}/license.txt", "stylesheets/#{@name}/license.txt"
+    # copy_file "#{@extract_path}/license.txt", "stylesheets/#{@name}/license.txt"
     empty_directory "fonts/#{@name}"
     directory "#{@extract_path}/fonts", "fonts/#{@name}"
   end
@@ -66,6 +66,7 @@ class SourceFile < Thor
       say_status '       fetch', zip_file_path, :green
       # FileUtils.mkdir_p self.class.source_root
       copy_file zip_file_path, @archive_file
+      # raise "a:#{zip_file_path}_b:#{@archive_file}"
       if File.exist? @archive_file
         extract @archive_file, self.class.source_root, pattern
         FileUtils.rm_rf @archive_file
