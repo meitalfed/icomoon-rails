@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dashboard:before {
+	content: "\e001";
+}
+.icon-notebook:before {
+	content: "\e002";
+}
+.icon-users:before {
+	content: "\e004";
+}
+.icon-list:before {
+	content: "\e007";
+}
+.icon-cog:before {
+	content: "\e006";
+}
+.icon-envelope:before {
+	content: "\e008";
+}
+.icon-caret-down:before {
+	content: "\f0d7";
+}
+.icon-circle-blank:before {
+	content: "\f10c";
+}
+.icon-briefcase:before {
+	content: "\f0b1";
+}
+.icon-Service:before {
+	content: "\e000";
+}
+.icon-Cust:before {
+	content: "\e009";
+}
+.icon-CircleV2:before {
+	content: "\e00a";
+}
+.icon-CircleV1:before {
+	content: "\e00b";
+}
+.icon-reorder:before {
+	content: "\f0c9";
+}
+.icon-pencil:before {
+	content: "\f040";
+}
+.icon-edit:before {
+	content: "\f044";
+}
+.icon-exclamation:before {
+	content: "\f12a";
+}
+.icon-cancel-circle:before {
+	content: "\e00c";
+}
+.icon-plus-sign:before {
+	content: "\f055";
+}
+.icon-minus-sign:before {
+	content: "\f056";
+}
+.icon-question-sign:before {
+	content: "\f059";
+}
+.icon-file:before {
+	content: "\e00d";
+}
+.icon-coin-3:before {
+	content: "\e00e";
+}
+.icon-signout:before {
+	content: "\e600";
+}
+.icon-sign-blank:before {
+	content: "\e601";
+}
+.icon-ellipsis-horizontal:before {
+	content: "\e602";
+}
+.icon-check-empty:before {
+	content: "\e603";
+}
+.icon-plus:before {
+	content: "\e604";
+}
+.icon-calendar-empty:before {
+	content: "\e60b";
+}
+.icon-help:before {
+	content: "\e605";
+}
+.icon-user-add:before {
+	content: "\e60c";
+}
+.icon-select:before {
+	content: "\e606";
+}
+.icon-email:before {
+	content: "\e607";
+}
+.icon-trash:before {
+	content: "\e608";
+}
+.icon-copy:before {
+	content: "\e609";
+}
+.icon-binoculars:before {
+	content: "\e60a";
+}
+.icon-clock:before {
+	content: "\e60d";
+}
